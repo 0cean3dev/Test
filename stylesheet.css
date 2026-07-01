@@ -1,0 +1,42 @@
+html, body {
+    background-color:rgb(249, 235, 216);
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 10px;
+    padding: 40px
+}
+
+.monHeader {
+    background-color: rgb(202, 156, 245);
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.btn {
+    background-color:blueviolet;
+    border-radius: 5px;
+    color: black;
+    width: 100px;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    gap: 20px;
+    
+}
+
+
+.box {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 156, 245);
+    border-radius: 50px;
+}
